@@ -1,0 +1,31 @@
+.card{
+  width: 100%;
+  .swiper-slide{
+    font-size: 0;
+  }
+  img{
+    width: calc(100vw - 32px);
+    border-radius: 6px;
+  }
+  .swiper-pagination{
+    position: absolute;
+    bottom: 4px;
+    height: 8px;
+    width: 60px;
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+    left: 50%;
+    margin-left: -30px;
+    .swiper-pagination-bullet{
+      width: 6px;
+      height: 6px;
+      border-radius: 3px;
+      display: block;
+      background: rgba(0,0,0,.8);
+      &.swiper-pagination-bullet-active{
+        background: #fff;
+      }
+    }
+  }
+}
