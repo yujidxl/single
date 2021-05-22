@@ -3,7 +3,7 @@ import './list.scss';
 import src from '../../images/4cb0690f944dfde0fb54ad16da35e8ea0cfb2898.jpg'
 
 class List extends Component {
-  constructor(props: any) {
+  constructor(props:{}) {
     super(props);
     this.state = {
 

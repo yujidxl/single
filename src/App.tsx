@@ -4,14 +4,19 @@ import './App.scss';
 import Card from './components/card/card';
 import List from './components/list/list';
 
-class App extends React.Component {
-  constructor(props: any) {
+interface Props {
+
+}
+
+interface Istate {
+
+}
+
+class App extends React.Component<Props, Istate> {
+  constructor(props: Props) {
     super(props);
-    this.state = {
-      
-    }
   }
-  render() {
+  render(): JSX.Element {
     return (
       <div className="App">
         <header className="App-header">
